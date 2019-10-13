@@ -17,6 +17,7 @@ export class App extends React.PureComponent {
 
   handelChange(e) {
     this.setState({ sarchFields: e.target.value });
+    
   }
 
   componentDidMount() {
